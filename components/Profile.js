@@ -9,7 +9,7 @@ export default function Profile(props) {
 
   return (
     <div className="p-8">
-      <Link href={`/profile/${profile.id}`}>
+      <Link href={`/profile/${profile.ownedBy}`}>
         <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
           <div className="md:flex">
             <div className="md:shrink-0">
