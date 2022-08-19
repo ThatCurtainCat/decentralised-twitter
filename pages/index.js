@@ -4,7 +4,7 @@ import Profile from "../components/Profile.js";
 import UAuth from "@uauth/js";
 
 const uauth = new UAuth({
-  clientID: "fd8290ec-5042-4ced-8bf5-baf16ee3e95b",
+  clientID: "0f1c73ed-49b9-4a5b-b45e-725a4830c985",
   redirectUri: "https://decentralised-twitter.vercel.app/",
   scope: "openid wallet",
 });
