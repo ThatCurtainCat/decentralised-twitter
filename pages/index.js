@@ -5,7 +5,7 @@ import UAuth from "@uauth/js";
 
 const uauth = new UAuth({
   clientID: "fd8290ec-5042-4ced-8bf5-baf16ee3e95b",
-  redirectUri: "http://localhost:5000/callback",
+  redirectUri: "https://decentralised-twitter.vercel.app/",
   scope: "openid wallet",
 });
 
